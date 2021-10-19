@@ -17,6 +17,7 @@ namespace Gissa_talet
             int valueChange;
 
             //presentation
+
             Console.WriteLine("Välkommen till Gissa talet!");
             Console.WriteLine("Vad vill du göra?");
             Console.WriteLine("");
@@ -87,7 +88,7 @@ namespace Gissa_talet
                             Console.WriteLine($"Den senaste vinnaren är:");
                             Thread.Sleep(1000);
                             Console.WriteLine(playerName);
-                            Thread.Sleep(500);
+                            Thread.Sleep(1000);
                         }
 
                         else
@@ -112,7 +113,7 @@ namespace Gissa_talet
                         break;
 
                     case "5":
-
+                        //inställningar
                         Console.WriteLine("");
                         while (settingsChoice != "3")
                         {
